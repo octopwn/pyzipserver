@@ -90,7 +90,7 @@ def main():
 	import argparse
 	parser = argparse.ArgumentParser(description='Simple HTTP server')
 	parser.add_argument('-a', '--address', default='0.0.0.0', help='IP/hostname to listen on')
-	parser.add_argument('-p', '--port', type=int, default=80, help='Port to listen on')
+	parser.add_argument('-p', '--port', type=int, default=8000, help='Port to listen on')
 	parser.add_argument('--ssl-cert', help='Certificate file for SSL')
 	parser.add_argument('--ssl-key',  help='Key file for SSL')
 	parser.add_argument('--ssl-ca',  help='CA cert file for client cert validations')
